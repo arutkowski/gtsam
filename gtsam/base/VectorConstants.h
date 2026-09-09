@@ -18,11 +18,13 @@
 
 #pragma once
 
-#define Z_2x1 Vector2::Constant(0.0)
-#define Z_3x1 Vector3::Constant(0.0)
-#define Z_4x1 Vector4::Constant(0.0)
-#define Z_5x1 Vector5::Constant(0.0)
-#define Z_6x1 Vector6::Constant(0.0)
-#define Z_7x1 Vector7::Constant(0.0)
-#define Z_8x1 Vector8::Constant(0.0)
-#define Z_9x1 Vector9::Constant(0.0)
+#include <gtsam/base/Vector.h>
+
+#define Z_2x1 gtsam::Vector2::Constant(0.0)
+#define Z_3x1 gtsam::Vector3::Constant(0.0)
+#define Z_4x1 gtsam::Vector4::Constant(0.0)
+#define Z_5x1 gtsam::Vector5::Constant(0.0)
+#define Z_6x1 gtsam::Vector6::Constant(0.0)
+#define Z_7x1 gtsam::Vector7::Constant(0.0)
+#define Z_8x1 gtsam::Vector8::Constant(0.0)
+#define Z_9x1 gtsam::Vector9::Constant(0.0)
